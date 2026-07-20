@@ -3269,7 +3269,7 @@
 								_class = "AnimConstraintBoneInput"
 								parent_bone = "ankle_L"
 								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 5.0, 12.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
 								weight = 1.0
 							},
 							{
@@ -11821,7 +11821,7 @@
 				[
 					{
 						_class = "AnimFile"
-						name = "tools_preview"
+						name = "tools_preview1"
 						is_default_idle_anim = false
 						activity_name = ""
 						activity_weight = 1
@@ -11836,7 +11836,7 @@
 						disable_compression = false
 						animgraph_additive = false
 						delete_from_compiled_model = false
-						source_filename = "agents/models/wuthering_waves/chisa_e/tools_preview.dmx"
+						source_filename = "agents/maoling/wuthering_waves/chisa_e/tools_preview.dmx"
 						import_bone_scales = false
 						start_frame = -1
 						end_frame = -1
