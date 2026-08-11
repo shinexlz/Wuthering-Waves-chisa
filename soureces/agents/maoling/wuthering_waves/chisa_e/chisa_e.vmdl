@@ -1569,21 +1569,6 @@
 					{
 						_class = "RenderMeshFile"
 						name = "body"
-						children = 
-						[
-							{
-								_class = "ReplaceMeshMaterials"
-								remaps = 
-								[
-									{
-										from = "agents/maoling/wuthering_waves/chisa_e/materials/chisa_tex.vmat"
-										to = "agents/maoling/wuthering_waves/chisa_e/materials/chisa_tex.vmat"
-									},
-								]
-								use_single_material = false
-								single_override_material = ""
-							},
-						]
 						filename = "agents/maoling/wuthering_waves/chisa_e/chisa_ref.fbx"
 						import_scale = 1.0
 						import_filter = 
@@ -1609,21 +1594,6 @@
 					{
 						_class = "RenderMeshFile"
 						name = "arms"
-						children = 
-						[
-							{
-								_class = "ReplaceMeshMaterials"
-								remaps = 
-								[
-									{
-										from = "chisa_arms_tex.vmat"
-										to = "agents/maoling/wuthering_waves/chisa_e/materials/chisa_arms_tex.vmat"
-									},
-								]
-								use_single_material = false
-								single_override_material = ""
-							},
-						]
 						filename = "agents/maoling/wuthering_waves/chisa_e/chisa_arms_ref.fbx"
 						import_scale = 1.0
 						import_filter = 
@@ -11877,6 +11847,18 @@
 					},
 				]
 				default_root_bone_name = ""
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = [  ]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
 			},
 		]
 		model_archetype = ""
