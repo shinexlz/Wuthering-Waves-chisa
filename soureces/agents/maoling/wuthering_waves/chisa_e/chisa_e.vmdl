@@ -3182,1122 +3182,1153 @@
 						up_vector = [ 0.0, 0.0, -1.0 ]
 					},
 					{
-						_class = "AnimConstraintOrient"
+						_class = "Folder"
+						name = "arm_l"
 						children = 
 						[
 							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "leg_upper_R"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_clavicle_L"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "clavicle_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
 							},
 							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "leg_upper_R_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_hand_L"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "hand_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_arm_upper_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "arm_upper_L"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_index_0_L"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_index_0_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_index_1_L"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_index_1_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_index_2_L"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_index_2_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_index_meta_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_middle_0_L"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_middle_0_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_middle_1_L"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_middle_1_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_middle_2_L"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_middle_2_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_middle_meta_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_pinky_0_L"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_pinky_0_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_pinky_1_L"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_pinky_1_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_pinky_2_L"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_pinky_2_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_pinky_meta_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_ring_0_L"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_ring_0_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_ring_1_L"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_ring_1_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_ring_2_L"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_ring_2_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_ring_meta_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_thumb_0_L"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_thumb_0_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_thumb_1_L"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_thumb_1_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_thumb_2_L"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_thumb_2_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
 							},
 						]
 					},
 					{
-						_class = "AnimConstraintOrient"
+						_class = "Folder"
+						name = "arm_r"
 						children = 
 						[
 							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "leg_upper_L"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_clavicle_R"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "clavicle_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
 							},
 							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "leg_upper_L_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_hand_R"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "hand_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_arm_upper_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "arm_upper_R"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_index_0_R"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_index_0_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_index_1_R"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_index_1_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_index_2_R"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_index_2_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_index_meta_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_middle_0_R"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_middle_0_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_middle_1_R"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_middle_1_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_middle_2_R"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_middle_2_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_middle_meta_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_pinky_0_R"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_pinky_0_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_pinky_1_R"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_pinky_1_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_pinky_2_R"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_pinky_2_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_pinky_meta_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_ring_0_R"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_ring_0_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_ring_1_R"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_ring_1_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_ring_2_R"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_ring_2_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_ring_meta_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_thumb_0_R"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_thumb_0_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_thumb_1_R"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_thumb_1_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_finger_thumb_2_R"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "finger_thumb_2_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
 							},
 						]
 					},
 					{
-						_class = "AnimConstraintOrient"
+						_class = "Folder"
+						name = "leg"
 						children = 
 						[
 							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "leg_lower_R"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "leg_lower_R_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "leg_lower_L"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "leg_lower_L_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "ankle_L"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "ankle_L_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "ankle_R"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "ankle_R_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "ball_L"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "ball_L_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "ball_R"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "ball_R_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "clavicle_L"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "clavicle_L_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "clavicle_R"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "clavicle_R_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "hand_L"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "hand_L_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "hand_R"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "hand_R_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_thumb_0_L"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_thumb_0_L_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_thumb_1_L"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_thumb_1_L_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_thumb_2_L"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_thumb_2_L_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_index_meta_l"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_index_meta_l_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_index_0_L"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_index_0_L_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_index_1_L"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_index_1_L_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_index_2_L"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_index_2_L_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_middle_meta_l"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_middle_meta_l_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_middle_0_L"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_middle_0_L_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_middle_1_L"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_middle_1_L_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_middle_2_L"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_middle_2_L_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_ring_meta_l"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_ring_meta_l_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_ring_0_L"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_ring_0_L_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_ring_1_L"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_ring_1_L_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_ring_2_L"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_ring_2_L_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_pinky_meta_l"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_pinky_meta_l_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_pinky_0_L"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_pinky_0_L_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_pinky_1_L"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_pinky_1_L_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_pinky_2_L"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_pinky_2_L_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_thumb_0_R"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_thumb_0_R_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_thumb_1_R"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_thumb_1_R_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_thumb_2_R"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_thumb_2_R_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_index_meta_r"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_index_meta_r_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_index_0_R"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_index_0_R_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_index_1_R"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_index_1_R_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_index_2_R"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_index_2_R_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_middle_meta_r"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_middle_meta_r_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_middle_1_R"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_middle_1_R_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_middle_0_R"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_middle_0_R_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_middle_2_R"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_middle_2_R_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_ring_meta_r"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_ring_meta_r_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_ring_0_R"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_ring_0_R_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_ring_1_R"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_ring_1_R_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_ring_2_R"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_ring_2_R_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_pinky_meta_r"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_pinky_meta_r_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_pinky_0_R"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_pinky_0_R_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_pinky_1_R"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_pinky_1_R_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintOrient"
-						children = 
-						[
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "finger_pinky_2_R"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "finger_pinky_2_R_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintPoint"
-						children = 
-						[
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "leg_upper_l"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "leg_upper_L_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintPoint"
-						children = 
-						[
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "leg_upper_r"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "leg_upper_R_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintPoint"
-						children = 
-						[
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "leg_lower_r"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "leg_lower_R_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintPoint"
-						children = 
-						[
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "leg_lower_l"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "leg_lower_L_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintPoint"
-						children = 
-						[
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "ankle_l"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "ankle_L_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-						]
-					},
-					{
-						_class = "AnimConstraintPoint"
-						children = 
-						[
-							{
-								_class = "AnimConstraintSlave"
-								parent_bone = "ankle_r"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
-							},
-							{
-								_class = "AnimConstraintBoneInput"
-								parent_bone = "ankle_R_h"
-								relative_origin = [ 0.0, 0.0, 0.0 ]
-								relative_angles = [ 0.0, 0.0, 0.0 ]
-								weight = 1.0
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_leg_upper_R"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "leg_upper_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_leg_upper_L"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "leg_upper_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_leg_lower_L"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "leg_lower_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_leg_lower_R"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "leg_lower_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_ankle_R"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "ankle_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_ankle_L"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "ankle_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_ball_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "ball_R"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintOrient"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "m_ball_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "ball_L"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintPoint"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "leg_upper_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "m_leg_upper_L"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintPoint"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "leg_upper_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "m_leg_upper_R"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintPoint"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "leg_lower_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "m_leg_lower_R"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintPoint"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "leg_lower_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "m_leg_lower_L"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintPoint"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "ankle_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "m_ankle_L"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintPoint"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "ankle_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+									{
+										_class = "AnimConstraintBoneInput"
+										parent_bone = "m_ankle_R"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintPoint"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "ball_r"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
+							},
+							{
+								_class = "AnimConstraintPoint"
+								children = 
+								[
+									{
+										_class = "AnimConstraintSlave"
+										parent_bone = "ball_l"
+										relative_origin = [ 0.0, 0.0, 0.0 ]
+										relative_angles = [ 0.0, 0.0, 0.0 ]
+										weight = 1.0
+									},
+								]
 							},
 						]
 					},
