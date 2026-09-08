@@ -2442,7 +2442,7 @@
 					},
 					{
 						_class = "Attachment"
-						name = "grenade01"
+						name = "grenade1"
 						parent_bone = "spine_0"
 						relative_origin = [ -0.935169, -3.114181, -7.750176 ]
 						relative_angles = [ 84.80435, -7.99625, 0.003668 ]
@@ -2451,7 +2451,7 @@
 					},
 					{
 						_class = "Attachment"
-						name = "grenade02"
+						name = "grenade2"
 						parent_bone = "spine_0"
 						relative_origin = [ -0.935169, -3.114181, -7.750176 ]
 						relative_angles = [ 84.80435, -7.99625, 0.003668 ]
@@ -2460,7 +2460,7 @@
 					},
 					{
 						_class = "Attachment"
-						name = "grenade03"
+						name = "grenade3"
 						parent_bone = "spine_0"
 						relative_origin = [ -0.935169, -3.114181, -7.750176 ]
 						relative_angles = [ 84.80435, -7.99625, 0.003668 ]
@@ -2469,7 +2469,7 @@
 					},
 					{
 						_class = "Attachment"
-						name = "grenade04"
+						name = "grenade4"
 						parent_bone = "spine_0"
 						relative_origin = [ -0.935169, -3.114181, -7.750176 ]
 						relative_angles = [ 84.80435, -7.99625, 0.003668 ]
@@ -4010,7 +4010,7 @@
 										parent_bone = "leg_upper_r"
 										relative_origin = [ 0.0, 0.0, 0.0 ]
 										relative_angles = [ 0.0, 0.0, 0.0 ]
-										weight = 1.0
+										weight = 0.95
 									},
 								]
 							},
@@ -4030,7 +4030,7 @@
 										parent_bone = "leg_upper_l"
 										relative_origin = [ 0.0, 0.0, 0.0 ]
 										relative_angles = [ 0.0, 0.0, 0.0 ]
-										weight = 1.0
+										weight = 0.95
 									},
 								]
 							},
@@ -4311,7 +4311,6 @@
 					{
 						_class = "JiggleBone"
 						name = "skirt1"
-						note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 						jiggle_root_bone = "skirt1"
 						jiggle_type = 1
 						has_yaw_constraint = true
@@ -4362,7 +4361,6 @@
 					{
 						_class = "JiggleBone"
 						name = "skirt2"
-						note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 						jiggle_root_bone = "skirt2"
 						jiggle_type = 1
 						has_yaw_constraint = true
@@ -4413,7 +4411,6 @@
 					{
 						_class = "JiggleBone"
 						name = "skirt3"
-						note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 						jiggle_root_bone = "skirt3"
 						jiggle_type = 1
 						has_yaw_constraint = true
@@ -4464,7 +4461,6 @@
 					{
 						_class = "JiggleBone"
 						name = "skirt4"
-						note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 						jiggle_root_bone = "skirt4"
 						jiggle_type = 1
 						has_yaw_constraint = true
@@ -7777,7 +7773,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Hair007_R"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Hair007_R"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -7828,7 +7823,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Hair008_R"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Hair008_R"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -7879,7 +7873,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Hair009_R"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Hair009_R"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -7930,7 +7923,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Hair010_R"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Hair010_R"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -7981,7 +7973,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Hair004_R"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Hair004_R"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -8032,7 +8023,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Hair005_R"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Hair005_R"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -8083,7 +8073,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Hair006_R"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Hair006_R"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -8134,7 +8123,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Hair001_R"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Hair001_R"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -8185,7 +8173,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Hair002_R"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Hair002_R"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -8236,7 +8223,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Hair003_R"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Hair003_R"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -8287,7 +8273,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Hair001_M"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Hair001_M"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -8338,7 +8323,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Hair002_M"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Hair002_M"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -8389,7 +8373,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Hair003_M"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Hair003_M"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -8440,7 +8423,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Hair004_M"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Hair004_M"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -8491,7 +8473,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Hair005_M"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Hair005_M"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -8542,7 +8523,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Hair006_M"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Hair006_M"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -8593,7 +8573,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Hair001_L"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Hair001_L"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -8644,7 +8623,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Hair002_L"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Hair002_L"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -8695,7 +8673,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Hair011_L"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Hair011_L"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -8746,7 +8723,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Hair012_L"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Hair012_L"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -8797,7 +8773,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Hair013_L"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Hair013_L"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -8848,7 +8823,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Hair014_L"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Hair014_L"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -8899,7 +8873,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Hair015_L"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Hair015_L"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -8950,7 +8923,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Hair016_L"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Hair016_L"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -9001,8 +8973,57 @@
 							{
 								_class = "JiggleBone"
 								name = "Hair017_L"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Hair017_L"
+								jiggle_type = 1
+								has_yaw_constraint = true
+								has_pitch_constraint = true
+								has_angle_constraint = true
+								has_base_spring = false
+								allow_flex_length = false
+								invert_axes = false
+								has_collision = true
+								cloth_collision_layer0 = true
+								cloth_collision_layer1 = true
+								cloth_collision_layer2 = true
+								cloth_collision_layer3 = true
+								length = 20.0
+								tip_mass = 0.0
+								angle_limit = 10.0
+								min_yaw = -25.0
+								max_yaw = 25.0
+								yaw_friction = 0.0
+								yaw_bounce = 0.0
+								min_pitch = -25.0
+								max_pitch = 25.0
+								pitch_friction = 0.0
+								pitch_bounce = 0.0
+								base_mass = 0.0
+								base_stiffness = 0.0
+								base_damping = 0.0
+								base_left_min = 0.0
+								base_left_max = 0.0
+								base_left_friction = 0.0
+								base_up_min = 0.0
+								base_up_max = 0.0
+								base_up_friction = 0.0
+								base_forward_min = 0.0
+								base_forward_max = 0.0
+								base_forward_friction = 0.0
+								yaw_stiffness = 100.0
+								yaw_damping = 3.0
+								pitch_stiffness = 100.0
+								pitch_damping = 3.0
+								along_stiffness = 100.0
+								along_damping = 3.0
+								radius0 = 1.0
+								radius1 = 1.0
+								point0 = [ 0.0, 0.0, 0.0 ]
+								point1 = [ 2.0, 0.0, 0.0 ]
+							},
+							{
+								_class = "JiggleBone"
+								name = "Hair003_L"
+								jiggle_root_bone = "Hair003_L"
 								jiggle_type = 1
 								has_yaw_constraint = true
 								has_pitch_constraint = true
@@ -9666,7 +9687,6 @@
 							{
 								_class = "JiggleBone"
 								name = "ling_0_1"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "ling_0_1"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -9717,7 +9737,6 @@
 							{
 								_class = "JiggleBone"
 								name = "ling_2_1"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "ling_2_1"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -9768,7 +9787,6 @@
 							{
 								_class = "JiggleBone"
 								name = "ling_4_1"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "ling_4_1"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -9819,7 +9837,6 @@
 							{
 								_class = "JiggleBone"
 								name = "ling_6_1"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "ling_6_1"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -9877,7 +9894,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Ears2_R"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Ears2_R"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -9928,7 +9944,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Ears3_R"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Ears3_R"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -9979,7 +9994,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Ears2_L"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Ears2_L"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -10030,7 +10044,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Ears3_L"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Ears3_L"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -10088,7 +10101,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Breast2_R"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Breast2_R"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -10139,7 +10151,6 @@
 							{
 								_class = "JiggleBone"
 								name = "Breast2_L"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
 								jiggle_root_bone = "Breast2_L"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -10703,8 +10714,7 @@
 						[
 							{
 								_class = "JiggleBone"
-								name = "Ears2_R1"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
+								name = "Piao056_R"
 								jiggle_root_bone = "Piao056_R"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -10754,8 +10764,7 @@
 							},
 							{
 								_class = "JiggleBone"
-								name = "Ears2_R2"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
+								name = "Piao057_R"
 								jiggle_root_bone = "Piao057_R"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -10805,8 +10814,7 @@
 							},
 							{
 								_class = "JiggleBone"
-								name = "Ears2_R3"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
+								name = "Piao056_L"
 								jiggle_root_bone = "Piao056_L"
 								jiggle_type = 1
 								has_yaw_constraint = true
@@ -10856,9 +10864,8 @@
 							},
 							{
 								_class = "JiggleBone"
-								name = "Ears2_R4"
-								note = "Jiggle bone for guns on back, delete if you don't like it or don't have the attachment/bone for it.\n"
-								jiggle_root_bone = "Piao057_R"
+								name = "Piao057_L"
+								jiggle_root_bone = "Piao057_L"
 								jiggle_type = 1
 								has_yaw_constraint = true
 								has_pitch_constraint = true
@@ -11822,7 +11829,7 @@
 				[
 					{
 						_class = "AnimFile"
-						name = "tools_preview1"
+						name = "tools_preview"
 						is_default_idle_anim = false
 						activity_name = ""
 						activity_weight = 1
