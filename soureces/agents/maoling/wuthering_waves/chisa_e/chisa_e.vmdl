@@ -2436,7 +2436,7 @@
 						name = "grenade0"
 						parent_bone = "spine_0"
 						relative_origin = [ -0.935169, -3.114181, -7.750176 ]
-						relative_angles = [ 84.80435, -7.99625, 0.003668 ]
+						relative_angles = [ 84.804344, -7.99625, 0.003668 ]
 						weight = 1.0
 						ignore_rotation = false
 					},
@@ -2444,8 +2444,8 @@
 						_class = "Attachment"
 						name = "grenade1"
 						parent_bone = "spine_0"
-						relative_origin = [ -0.935169, -3.114181, -7.750176 ]
-						relative_angles = [ 84.80435, -7.99625, 0.003668 ]
+						relative_origin = [ -0.505054, 1.703059, -9.33189 ]
+						relative_angles = [ 85.83974, -7.999295, 0.000583 ]
 						weight = 1.0
 						ignore_rotation = false
 					},
@@ -2453,8 +2453,8 @@
 						_class = "Attachment"
 						name = "grenade2"
 						parent_bone = "spine_0"
-						relative_origin = [ -0.935169, -3.114181, -7.750176 ]
-						relative_angles = [ 84.80435, -7.99625, 0.003668 ]
+						relative_origin = [ -0.267025, 4.054361, -8.967611 ]
+						relative_angles = [ 88.47844, 23.99696, 28.476662 ]
 						weight = 1.0
 						ignore_rotation = false
 					},
@@ -2462,8 +2462,8 @@
 						_class = "Attachment"
 						name = "grenade3"
 						parent_bone = "spine_0"
-						relative_origin = [ -0.935169, -3.114181, -7.750176 ]
-						relative_angles = [ 84.80435, -7.99625, 0.003668 ]
+						relative_origin = [ -0.326271, 5.901669, -7.562188 ]
+						relative_angles = [ 82.60011, 21.620598, 31.120459 ]
 						weight = 1.0
 						ignore_rotation = false
 					},
@@ -2471,8 +2471,8 @@
 						_class = "Attachment"
 						name = "grenade4"
 						parent_bone = "spine_0"
-						relative_origin = [ -0.935169, -3.114181, -7.750176 ]
-						relative_angles = [ 84.80435, -7.99625, 0.003668 ]
+						relative_origin = [ -0.254982, 7.373029, -5.62379 ]
+						relative_angles = [ 87.85967, 148.45975, 159.37706 ]
 						weight = 1.0
 						ignore_rotation = false
 					},
